@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Личная страница</title>
+    </head>
+    <body>
+        <header>
+            <h1 id="main">Моя Личная Страница</h1>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="#main">Главная</a>
+                    </li>
+                    <li>
+                        <a href="#about_me">Обо мне</a>
+                    </li>
+                    <li>
+                        <a href="#hobbies">Хобби</a>
+                    </li>
+                    <li>
+                        <a href="#contact">Связаться</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <hr noshade size="4" color="gray" />
+            <section>
+                <h2 id="about_me">О себе</h2>
+                <table>
+                    <tr>
+                        <td>
+                            <img height="200px" src="sasha.png" alt="Личная фотография автора" />
+                        </td>
+                        <td>
+                            <p>
+                                Всем привет, меня зовут Саша, я диктор канала «Мастерская Настроения». Я высокий парень, худощавого телосложения светло-каштановыми волосами, продолговатым овальным
+                                лицом и голубыми глазами. Мне нравится носить повседневную одежду такую как джинсы и футболка, также предпочитаю кроссовки. Но в школу мне приходится одевать форму. Что
+                                касается моего характера, я думаю, что я довольно скромный и спокойный юноша. Мои друзья говорят мне, что у меня есть хорошее чувство юмора, в чем я не уверен.
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+            </section>
+            <section>
+                <h2 id="hobbies">Хобби</h2>
+                <p>Мне нравится все, что связано с активным отдыхом - активные виды спорта, активные игры, активный досуг в свободное время:</p>
+                <ul>
+                    <li>Озвучка</li>
+                    <li>Футбол</li>
+                    <li>Хоббихорсинг</li>
+                </ul>
+            </section>
+            <hr noshade size="4" color="gray" />
+        </main>
+
+        <footer>
+            <h3 id="contact">Контакты <u>(не работает)</u></h3>
+            <form action="#">
+                <label for="user_email">Ваша почта: </label>
+                <input type="email" id="user_email" required placeholder="platina@gmail.com" />
+                <br />
+                <label for="user_text">Сообщение: </label>
+                <textarea id="user_text" required placeholder="Введите ваше сообщение..." cols="21" rows="2"></textarea>
+                <br />
+                <button type="submit">Отправить</button>
+            </form>
+            <br />
+            <div>© 2025 Мой сайт</div>
+        </footer>
+    </body>
+</html>

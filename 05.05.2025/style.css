@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+body{
+    font-family: "Open Sans";
+    background-color: #9104aa;
+    background-image: url(https://bogatyr.club/uploads/posts/2023-03/38118/1679598225_bogatyr-club-p-fioletovie-gori-foni-vkontakte-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:rgb(58, 255, 140);
+}
+
+a{
+    color:aqua;
+    text-decoration: none;
+    padding: 5px 20px;
+    background-color:rgb(139, 22, 218);
+    border-radius: 5px;
+    margin: 5px 10px;
+    text-align: center;
+    font-weight: 600;
+}
+li{
+    list-style-type: none;
+
+}
+ul{
+    display: flex;
+    justify-content: left;
+}
+a:hover{
+    transition: all 0.3s;
+    background-color:rgb(172, 41, 69);
+}
+
+h1, h2, h3{
+    color: rgb(130, 235, 11);
+}

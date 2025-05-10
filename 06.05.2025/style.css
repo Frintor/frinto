@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Open Sans", arial, sans-serif;
+    background-image: url(https://zefirka.club/wallpapers/uploads/posts/2023-04/1680395327_zefirka-club-p-oboi-na-rabochii-minimalizm-90.jpg);
+    color: #f0ffbc;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1{
+    font-size: 36px;
+    color: #ced4c4;
+    margin: 0.5% 1%;
+}
+h2{
+    font-size:30px;
+    color: #b74cff;
+    margin: 0.5% 2%;
+}
+h3{
+    font-size: 24px;
+    color:#c87ef3;
+    margin: 0.5% 3%;
+}
+p{
+    margin: 0.5% 4%;
+}
+hr{
+    color: #379683;
+    height: 0.8vh;
+    background-color: #379683;
+}
+ul{
+    list-style-type: none;
+    display: flex;
+    margin: 15px;
+}
+a{
+    margin: 0 10px;
+    padding: 10px 15px;
+    background-color: #05386B;
+    color: #8ee4af;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 10px;
+    font-weight: 600;
+}
+a:hover{
+    transition: all 0.3s;
+    color: white;
+    background-color: rgb(255, 114, 114);
+}
+nav{
+    margin: 5vh 2%;
+}
+section{
+    padding: 1%;
+    box-shadow: 5px 5px rgb(126, 124, 124, 0.7);
+    margin: 0.75%;
+}
+.bg1{
+    background-color: #8EE4AF;
+    opacity: 0.8;
+    height: 100vh;
+    width: 100%;
+}
+.entry{
+    background-color: #8ee4af;
+}
+.main{
+    background-color: #5cdb95;
+}
+.info{
+    background-color: #379683;
+}
+form{
+    margin: 1vh 1%;
+}
+input, button{
+    margin: 1% 0;
+}
+input, textarea{
+    background-color: #f0ffbc;
+}
+button{
+    color:#8EE4AF;
+    background-color:#05386B;
+    padding: 0.5%;
+    border-radius: 10px;
+    border: none;
+    font-weight: 600;
+}
+button:hover{
+    transition: all 0.3s;
+    color: white;
+    background-color: rgb(255, 114, 114);
+}
+
+@media (max-width: 784px){
+    body{
+        font-size: 14px;
+    }
+    h1{
+        font-size:30px;
+    }
+    h2{
+        font-size:24px;
+    }
+    h3{
+        font-size:20px;
+    }
+    button{
+        border-radius: 5px;
+        padding: 1%;
+    }
+    section{
+        margin: 2%;
+    }
+}

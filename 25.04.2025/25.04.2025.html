@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Галерея изображений</title>
+    </head>
+
+    <body>
+        <header>
+            <h1>Моя галерея изображений</h1>
+        </header>
+
+        <main>
+            <hr noshade color="gray" size="6" />
+            <section id="gallery">
+                <table cellspacing="15">
+                    <tr>
+                        <td><img src="water.jpeg" alt="Буйные волны" loading="lazy" width="400" height="250" /></td>
+                        <td>
+                            <p>
+                                <a href="https://image.fonwall.ru/o/go/the-waves-ocean-storm.jpeg?auto=compress&fit=crop&w=1280&h=800&domain=img3.fonwall.ru"><strong>Ветровые волны</strong></a>
+                                создаются вследствие воздействия ветра (передвижение воздушных масс) на поверхность воды, то есть нагнетания.
+                            </p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <img src="Sand.jpg" alt="Песок" loading="lazy" width="400" height="300" />
+                        </td>
+                        <td>
+                            <p>
+                                <a
+                                    href="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Morocco_Africa_Flickr_Rosino_December_2005_84527213.jpg/250px-Morocco_Africa_Flickr_Rosino_December_2005_84527213.jpg"
+                                    ><strong>Песо́к</strong></a
+                                >
+                                — рыхлая осадочная горная порода, состоящий из зёрен горных пород размером от 0,05 до 2 мм
+                            </p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <img src="sunflower.JPG" alt="Подсолнечник" loading="lazy" width="400" height="500" />
+                        </td>
+                        <td>
+                            <p>
+                                <a href="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Helianthus_annuus_001.JPG/500px-Helianthus_annuus_001.JPG"><strong>Подсо́лнечник</strong></a>
+                                (лат. Helianthus) — род растений семейства Астровые (Asteraceae).
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+            </section>
+            <hr noshade color="gray" size="6" />
+        </main>
+
+        <footer>
+            <h3>Связаться со мной <u>(не работает)</u></h3>
+            <form action="/">
+                <label for="email">Ваша почта:</label>
+                <input type="email" id="email" placeholder="platina@gmail.com..." required />
+                <br />
+                <label for="text">Сообщение: </label>
+                <textarea id="text" rows="2" cols="21" placeholder="Введите ваше сообщеие..." required minlength="5" maxlength="255"></textarea>
+                <br />
+                <button type="submit">Отправить</button>
+            </form>
+        </footer>
+        <br>
+        <div>© 2025 Мой сайт</div>
+    </body>
+</html>
